@@ -1,4 +1,4 @@
-# alpha=1,beta=1
+# parameters are in this order: alpha, beta, number of simulation steps, volatility, LP width, inter LP separation
 ./full_run.sh 1 1 100 10 .01 60 0
 ./full_run.sh 1 1 100 10 .01 60 60
 ./full_run.sh 1 1 100 10 .01 60 240
